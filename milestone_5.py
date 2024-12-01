@@ -1,7 +1,9 @@
 import random
 
+#list of words for the game
 word_list = ["banana", "raspberry", "blueberry", "watermelon", "mangosteen"]
 
+#class representing the game
 class Hangman:
 
   def __init__(self, word_list, num_lives=5):
